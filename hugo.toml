@@ -1,19 +1,44 @@
-# Base Config
-baseURL = 'https://www.dantezulli.ar/'
-languageCode = 'es-AR'
-defaultContentLanguage = 'es'
-title = 'Dante Zulli'
+baseURL = "https://www.dantezulli.ar"
 theme = "bearcub"
+copyright = "Dante Zulli (CC BY 4.0)"
+defaultContentLanguage = "es"
+languageCode = "es-AR"
+title = "Dante Zulli"
 enableRobotsTXT = true
-# copyright = "John Doe (CC BY 4.0)"
+
+[markup]
+  [markup.highlight]
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = false
 
 [languages]
   [languages.es]
-    languageName = 'Español'
+    title = "Dante Zulli"
+    languageName = "es-AR"
+    LanguageCode = "es-AR"
+    contentDir = "content"
+    weight = 1
+    [languages.es.params]
+      madeWith = "Hecho con [Bear Cub](https://github.com/clente/hugo-bearcub)"
   [languages.en]
-    languageName = 'English'
+    title = "Dante Zulli"
+    languageName = "en-US"
+    LanguageCode = "en-US"
+    contentDir = "content.en"
+    weight = 2
+    [languages.en.params]
+      madeWith = "Made with [Bear Cub](https://github.com/clente/hugo-bearcub)"
 
-# Author metadata
-[params.author]
-  name = "Dante Zulli"
-  email = "dantezulli2004@gmail.com"
+[params]
+  description = "Blog personal de Dante Zulli"
+  # favicon = "images/favicon.png"
+  title = "Dante Zulli"
+  dateFormat = "2006-01-02"
+  hideUntranslated = false
+  [params.social]
+    # twitter = "example" # Twitter handle (without '@')
+    # facebook_admin = "0000000000" # Facebook Page Admin ID
+  [params.author]
+    name = "Dante Zulli"
+    email = "dantezulli2004@gmail.com"
