@@ -1,14 +1,19 @@
+# Base Config
 baseURL = 'https://www.dantezulli.ar/'
 languageCode = 'es-AR'
 defaultContentLanguage = 'es'
 title = 'Dante Zulli'
 theme = "bearcub"
+enableRobotsTXT = true
+# copyright = "John Doe (CC BY 4.0)"
 
 [languages]
-[languages.es]
-languageName = 'Español'
-weight = 1
+  [languages.es]
+    languageName = 'Español'
+  [languages.en]
+    languageName = 'English'
 
-[languages.en]
-languageName = 'English'
-weight = 2
+# Author metadata
+[params.author]
+  name = "Dante Zulli"
+  email = "dantezulli2004@gmail.com"
