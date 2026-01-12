@@ -1,0 +1,14 @@
+baseURL = 'https://www.dantezulli.ar/'
+languageCode = 'es-AR'
+defaultContentLanguage = 'es'
+title = 'Dante Zulli'
+theme = "bearcub"
+
+[languages]
+[languages.es]
+languageName = 'Español'
+weight = 1
+
+[languages.en]
+languageName = 'English'
+weight = 2

@@ -1,0 +1,14 @@
+[filtering-for]
+  other = "Filtrando por"
+
+[no-posts]
+  other = "No hay artículos aún"
+
+[email-subject]
+  other = "Responder a "
+
+[email-reply]
+  other = "Responder a este artículo por email"
+
+[skip-link]
+  other = "Saltar al contenido principal"
