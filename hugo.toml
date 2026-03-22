@@ -3,6 +3,7 @@ title = "Dante's Blog"
 copyright = "Dante Zulli (CC BY 4.0)"
 defaultContentLanguage = "es"
 enableRobotsTXT = true
+enableContentTranslation = true
 
 [markup]
   [markup.highlight]
@@ -17,12 +18,12 @@ enableRobotsTXT = true
     contentDir = "content"
     [languages.es.params]
       madeWith = "Hecho con [Bear Cub](https://github.com/clente/hugo-bearcub)"
-# [languages.en]
-#   languageName = "en-US"
-#   LanguageCode = "en-US"
-#   contentDir = "content.en"
-#   [languages.en.params]
-#     madeWith = "Made with [Bear Cub](https://github.com/clente/hugo-bearcub)"
+[languages.en]
+  languageName = "en-US"
+  LanguageCode = "en-US"
+  contentDir = "content.en"
+  [languages.en.params]
+    madeWith = "Made with [Bear Cub](https://github.com/clente/hugo-bearcub)"
 
 [params]
   title = "Dante's Blog"
