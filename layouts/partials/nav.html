@@ -1,18 +1,25 @@
+{{ $page := . }}
 {{ range .Site.Menus.main.ByWeight }}
 <a href="{{ .URL }}">{{ .Name }}</a>
 {{ end }}
 <a href='{{ absURL "index.xml" }}'>RSS</a>
 
-<!-- Convert this page's translations into a dict -->
-{{ $translations := dict }} {{ range .Translations }} {{ $translations = merge
-$translations (dict .Language.Lang .) }} {{ end }}
-
-<!-- Create a link to every translation -->
-{{ range where .Site.Languages "Lang" "!=" .Page.Lang }} {{ with (index
-$translations .Lang) }}
+{{ range where .Site.Languages "Lang" "!=" $page.Lang }}
+  {{ $targetLang := .Lang }}
+  {{ $hasTranslation := false }}
+  {{ range $page.Translations }}
+    {{ if eq .Language.Lang $targetLang }}
+      {{ $hasTranslation = true }}
+      {{ break }}
+    {{ end }}
+  {{ end }}
+  {{ if $hasTranslation }}
+    {{ range $page.Translations }}
+      {{ if eq .Language.Lang $targetLang }}
 <a href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
-{{ else }}
-<!-- The complicated setup was necessary to make a grayed out link -->
-{{ if not .Params.hideUntranslated }}
+      {{ end }}
+    {{ end }}
+  {{ else }}
 <a class="disabled" role="link" aria-disabled="true">{{ .LanguageName }}</a>
-{{ end }} {{ end }} {{ end }}
+  {{ end }}
+{{ end }}

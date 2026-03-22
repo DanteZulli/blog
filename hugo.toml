@@ -4,6 +4,15 @@ copyright = "Dante Zulli (CC BY 4.0)"
 defaultContentLanguage = "es"
 enableRobotsTXT = true
 
+[[menu.main]]
+  name = "Blog"
+  url = "/blog/"
+  weight = 1
+[[menu.main]]
+  name = "Projects"
+  url = "/projects/"
+  weight = 2
+
 [markup]
   [markup.highlight]
     lineNos = true
