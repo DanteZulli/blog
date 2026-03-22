@@ -3,7 +3,6 @@ title = "Dante's Blog"
 copyright = "Dante Zulli (CC BY 4.0)"
 defaultContentLanguage = "es"
 enableRobotsTXT = true
-enableContentTranslation = true
 
 [markup]
   [markup.highlight]
