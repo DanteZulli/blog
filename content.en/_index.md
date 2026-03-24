@@ -3,10 +3,12 @@ title = "Home"
 outputs = ["html"]
 +++
 
-# Hi! I'm Dante Zulli
+## Hi! I'm Dante Zulli
 
-Software developer and student at UNLa.
+### I'm a software developer with a passion for breaking and fixing all sorts of machines.
 
-This is my personal blog where I share my experiences, projects, and thoughts about technology.
+I currently live in [Lomas de Zamora, Greater Buenos Aires](https://lotr.fandom.com/wiki/Mordor), with plans to move to a greener area.
 
-[Contact me](/contact/)
+In my spare time, I enjoy [writing](/blog) (and sometimes ranting xD) about various topics that interest me, not always related to technology.
+
+Here I also share my [projects](/projects), ideas, motivations and/or proposals that have come up throughout my life.
