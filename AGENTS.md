@@ -36,9 +36,9 @@ hugo help
 ## Content Structure
 
 ```
-content/           # Spanish content (default language)
-content.en/        # English content
-content/blog/      # Blog posts
+content/           # Spanish content (es-AR, default)
+content.en/        # English content (en-US)
+content/blog/      # Blog posts (page bundles)
 content/projects/  # Projects section
 archetypes/        # Content templates
 layouts/           # HTML templates
@@ -59,7 +59,7 @@ description = "SEO description"
 
 ### File Naming
 - Use kebab-case: `my-post-name/index.md`
-- Each post in its own folder with `index.md`
+- Each post in its own folder with `index.md` (Page Bundle)
 - Images alongside content files
 
 ## Template Conventions
@@ -74,6 +74,7 @@ description = "SEO description"
 - snake_case naming: `custom_head.html`, `seo_tags.html`
 - Each partial handles one concern
 - User-overridable partials: `custom_head.html`, `custom_body.html`
+- **Dynamic Social Card:** `social_card.html` generates a custom image with title, author, and date.
 
 ### Block Definitions
 Use Hugo's `define` block for named sections:
@@ -103,13 +104,16 @@ Use Hugo's `define` block for named sections:
 - Mirror directory structure in `content.en/`
 - Same filenames as Spanish counterparts
 - `hideUntranslated = false` shows untranslated content
+- Default language: `es-AR` (Spanish - Argentina)
+- Secondary language: `en-US` (English - US)
 
 ## Code Blocks
 
 Hugo uses Chroma for syntax highlighting:
-- Enable line numbers in hugo.toml: `lineNos = true`
+- Enable line numbers in `hugo.toml`: `lineNos = true`
 - Code blocks use standard markdown triple backticks with language
 - Custom rendering in `layouts/_default/_markup/render-codeblock.html`
+- Highlighting styles in `assets/syntax.css`
 
 ## Hugo Shortcodes
 
@@ -133,26 +137,26 @@ Hugo uses Chroma for syntax highlighting:
 - Open Graph tags via `partials/seo_tags.html`
 - RSS autodiscovery in head
 - `description` front matter for meta description
+- **Social Card generation:** Controlled by `generateSocialCard = true` in `hugo.toml` (Params section). Requires FiraMono-Bold.ttf from Google Fonts.
 
-## Menu Configuration
+## Configuration (hugo.toml)
 
-Defined in `hugo.toml`:
-```toml
-[[menu.main]]
-  name = "Blog"
-  url = "/blog/"
-  weight = 1
-```
+- `baseURL = "https://www.dantezulli.ar"`
+- `copyright = "Dante Zulli (CC BY 4.0)"`
+- `author.name = "Dante Zulli"`
+- `author.email = "dantezulli2004@gmail.com"`
+- `social.linkedin = "dante-zulli"`
 
 ## Theme Parameters (hugo.toml)
 
 - `themeStyle`: CSS theme variant (default: "original")
 - `dateFormat`: Date display format ("2006-01-02")
 - `hideUntranslated`: Show untranslated pages
+- `madeWith`: Badge text for the footer (translatable per language)
 
 ## CSS Assets
 
-- Main styles: `print themeStyle .css | resources.Get | minify`
+- Main styles: `print themeStyle .css | resources.Get | minify` (uses `assets/original.css`)
 - Syntax highlighting: `syntax.css | minify`
 - Extra per-page: `{{ with .Params.style }}`
 

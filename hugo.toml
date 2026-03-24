@@ -39,6 +39,7 @@ enableRobotsTXT = true
   # favicon = "images/favicon.png"
   dateFormat = "2006-01-02"
   hideUntranslated = false
+  generateSocialCard = true
   [params.social]
     linkedin = "dante-zulli"
   [params.author]
