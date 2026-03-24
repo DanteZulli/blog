@@ -1,6 +1,6 @@
 +++
 title = "Contact"
-outputs = ["html"]
+layout = "page"
 +++
 
 # Contact
