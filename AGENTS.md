@@ -190,4 +190,4 @@ Hugo uses Chroma for syntax highlighting:
 - `/public/` is gitignored (generated output)
 - `/resources/_gen/` is gitignored
 - Hugo extended version required for SCSS/CSS minification
-- Uses Bear Cub theme concepts (hugo-bearcub)
+- **Integrated Theme:** The Bear Cub theme code is directly integrated into `/layouts` and `/assets`. It is NOT a submodule or an external theme. All template and style modifications should be made directly in these directories.
