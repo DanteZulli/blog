@@ -12,3 +12,6 @@
 
 [skip-link]
   other = "Saltar al contenido principal"
+
+[footer-subscribe]
+  other = "Suscribite vía <a href=\"{{ .RSSURL }}\">rss</a>, o solo decí <a href=\"{{ .ContactURL }}\">hola</a>"

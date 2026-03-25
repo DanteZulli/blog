@@ -2,7 +2,6 @@
 {{ range .Site.Menus.main.ByWeight }}
 <a href="{{ .URL }}">{{ .Name }}</a>
 {{ end }}
-<a href='{{ absURL "index.xml" }}'>RSS</a>
 
 {{ range where .Site.Languages "Lang" "!=" $page.Lang }}
   {{ $targetLang := .Lang }}
