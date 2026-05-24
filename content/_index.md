@@ -1,5 +1,5 @@
 +++
-title = "Home"
+title = "menu"
 +++
 
 # Hola! Soy Dante Zulli
