@@ -1,6 +1,5 @@
 +++
 title = "Home"
-outputs = ["html"]
 +++
 
 ## Hola! Soy Dante Zulli
