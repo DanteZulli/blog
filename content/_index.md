@@ -2,7 +2,7 @@
 title = "Home"
 +++
 
-## Hola! Soy Dante Zulli
+# Hola! Soy Dante Zulli
 
 ### un tipo apasionado por romper y arreglar cosas de todo tipo.
 
