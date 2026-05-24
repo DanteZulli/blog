@@ -26,21 +26,35 @@ a {
     color: #8cc2dd;
 }
 
+.header-bar {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 .title {
     text-decoration: none;
     border: 0;
+    white-space: nowrap;
 }
-.title h1 {
+.title h2 {
     font-size: 24px;
-    margin: 19.92px 0 19.92px 0;
+    margin: 19.92px 0;
+    display: inline;
 }
 
-.title span {
-    font-weight: 400;
+.header-sep,
+.nav-sep {
+    color: #666;
+}
+
+nav {
+    display: inline;
 }
 
 nav a {
-    margin-right: 10px;
+    white-space: nowrap;
 }
 
 textarea {

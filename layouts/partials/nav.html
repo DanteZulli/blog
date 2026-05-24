@@ -1,24 +1,5 @@
-{{ $page := . }}
-{{ range .Site.Menus.main.ByWeight }}
+{{- range $i, $el := .Site.Menus.main.ByWeight }}
+{{- if $i }}<span class="nav-sep"> / </span>{{ end }}
 <a href="{{ .URL }}">{{ .Name }}</a>
-{{ end }}
+{{- end }}
 
-{{ range where .Site.Languages "Lang" "!=" $page.Lang }}
-  {{ $targetLang := .Lang }}
-  {{ $hasTranslation := false }}
-  {{ range $page.Translations }}
-    {{ if eq .Language.Lang $targetLang }}
-      {{ $hasTranslation = true }}
-      {{ break }}
-    {{ end }}
-  {{ end }}
-  {{ if $hasTranslation }}
-    {{ range $page.Translations }}
-      {{ if eq .Language.Lang $targetLang }}
-<a href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
-      {{ end }}
-    {{ end }}
-  {{ else }}
-<a class="disabled" role="link" aria-disabled="true">{{ .LanguageName }}</a>
-  {{ end }}
-{{ end }}

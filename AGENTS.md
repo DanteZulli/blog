@@ -1,6 +1,6 @@
 # AGENTS.md - Dante's Blog
 
-Hugo-based bilingual blog (Spanish/English) using the Bear Cub theme.
+Hugo-based blog in Spanish (es-AR) using the Bear Cub theme.
 
 ## Critical Rule: Human-Written Content
 
@@ -118,8 +118,7 @@ tags = ["tag1", "tag2"]
 ## Content Structure
 
 ```
-content/              # Spanish content (es-AR, default)
-content.en/           # English content (en-US)
+content/              # Spanish content (es-AR)
 content/blog/         # Blog posts (page bundles)
 content/projects/     # Projects section
 archetypes/           # Content templates
@@ -127,7 +126,7 @@ layouts/              # HTML templates
   _default/           # Base templates (baseof, single, list, rss.xml)
   partials/           # Reusable components
   shortcodes/         # Custom markdown extensions
-i18n/                 # Translation files (en.toml, es.toml)
+i18n/                 # Translation files (es.toml)
 assets/               # CSS, images, fonts
 ```
 
@@ -148,10 +147,8 @@ assets/               # CSS, images, fonts
 {{ i18n "filtering-for" }}
 ```
 
-### Content Translation
-- Mirror directory structure in `content.en/`
-- Same filenames as Spanish counterparts
-- Default language: `es-AR`, Secondary: `en-US`
+### Language
+- Single language: `es-AR`
 
 ## Hugo Shortcodes
 
@@ -200,7 +197,7 @@ code here
 
 1. Run `hugo server -D` for live preview at http://localhost:1313
 2. Check for warnings: `hugo --printI18nWarnings --printPathWarnings`
-3. Verify bilingual content renders correctly
+3. Verify content renders correctly
 4. Test RSS feed at `/index.xml`
 5. Check mobile responsiveness
 

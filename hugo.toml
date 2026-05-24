@@ -1,17 +1,21 @@
 baseURL = "https://www.dantezulli.ar"
-title = "Dante's Blog (•̀ᴗ•́)و ̑̑"
+title = "dantezulli.ar"
 copyright = "Dante Zulli (CC BY 4.0)"
 defaultContentLanguage = "es"
 enableRobotsTXT = true
 
 [[menu.main]]
-  name = "Blog"
+  name = "blog"
   url = "/blog/"
-  weight = 1
-[[menu.main]]
-  name = "Projects"
-  url = "/projects/"
   weight = 2
+[[menu.main]]
+  name = "proyectos"
+  url = "/projects/"
+  weight = 3
+[[menu.main]]
+  name = "currículum"
+  url = "/cv.pdf"
+  weight = 1
 
 [markup]
   [markup.highlight]
@@ -26,12 +30,7 @@ enableRobotsTXT = true
     contentDir = "content"
     [languages.es.params]
       madeWith = "Basado en [Bear Cub](https://github.com/clente/hugo-bearcub)"
-[languages.en]
-  languageName = "en-US"
-  LanguageCode = "en-US"
-  contentDir = "content.en"
-  [languages.en.params]
-    madeWith = "Based on [Bear Cub](https://github.com/clente/hugo-bearcub)"
+
 
 [params]
   title = "Dante's Blog"
