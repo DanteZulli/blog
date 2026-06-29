@@ -6,7 +6,7 @@ Hugo-based blog in Spanish (es-AR) using the Bear Cub theme.
 
 **NEVER modify, edit, rephrase, rearrange, or write any content in blog posts.**
 
-All text in `content/blog/`, `content/projects/`, and `content/*/` directories is human-written and must remain untouched. This includes:
+All text in `content/blog/`, `content/proyectos/`, and `content/*/` directories is human-written and must remain untouched. This includes:
 - Body text and paragraphs
 - Titles, headings, and captions
 - Blockquotes and asides
@@ -118,16 +118,16 @@ tags = ["tag1", "tag2"]
 ## Content Structure
 
 ```
-content/              # Spanish content (es-AR)
-content/blog/         # Blog posts (page bundles)
-content/projects/     # Projects section
-archetypes/           # Content templates
-layouts/              # HTML templates
-  _default/           # Base templates (baseof, single, list, rss.xml)
-  partials/           # Reusable components
-  shortcodes/         # Custom markdown extensions
-i18n/                 # Translation files (es.toml)
-assets/               # CSS, images, fonts
+content/                # Spanish content (es-AR)
+content/blog/           # Blog posts (page bundles)
+content/proyectos/      # Proyectos
+archetypes/             # Content templates
+layouts/                # HTML templates
+  _default/             # Base templates (baseof, single, list, rss.xml)
+  partials/             # Reusable components
+  shortcodes/           # Custom markdown extensions
+i18n/                   # Translation files (es.toml)
+assets/                 # CSS, images, fonts
 ```
 
 ## i18n (Internationalization)
@@ -136,10 +136,10 @@ assets/               # CSS, images, fonts
 
 ```toml
 [filtering-for]
-  other = "Filtering for"
+other = "Filtrando por"
 
 [no-posts]
-  other = "No posts yet"
+other = "No hay artículos aún"
 ```
 
 ### Usage in Templates
@@ -205,4 +205,4 @@ code here
 
 - `/public/` and `/resources/_gen/` are gitignored (generated output)
 - Hugo **extended** version required for CSS minification
-- **Integrated Theme:** Bear Cub theme code is in `/layouts` and `/assets` (NOT a submodule)
+- **No hay temas externos separados.** Bear Cub está copiado directamente en `/layouts/` y `/assets/`. No hay carpeta `themes/` ni submodules.

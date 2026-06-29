@@ -2,6 +2,7 @@ baseURL = "https://www.dantezulli.ar"
 title = "dantezulli.ar 🇦🇷"
 copyright = "Dante Zulli (CC BY 4.0)"
 defaultContentLanguage = "es"
+languageCode = "es-AR"
 enableRobotsTXT = true
 
 [[menu.main]]
@@ -14,7 +15,7 @@ enableRobotsTXT = true
   weight = 2
 [[menu.main]]
   name = "proyectos"
-  url = "/projects/"
+  url = "/proyectos/"
   weight = 3
 [[menu.main]]
   name = "rss"
@@ -22,7 +23,7 @@ enableRobotsTXT = true
   weight = 4
 [[menu.main]]
   name = "contacto"
-  url = "/contact/"
+  url = "/contacto/"
   weight = 5
 
 [markup]
@@ -31,22 +32,13 @@ enableRobotsTXT = true
     lineNumbersInTable = false
     noClasses = false
 
-[languages]
-[languages.es]
-    languageName = "es-AR"
-    LanguageCode = "es-AR"
-    contentDir = "content"
-    [languages.es.params]
-      madeWith = "Basado en [Bear Cub](https://github.com/clente/hugo-bearcub)"
-
-
 [params]
-  title = "Dante's Blog"
-  description = "Hi! I'm Dante Zulli"
+  title = "dantezulli.ar"
+  description = "Blog personal de Dante Zulli — software, proyectos, y pensamientos"
   # favicon = "images/favicon.png"
   dateFormat = "2006-01-02"
-  hideUntranslated = false
   generateSocialCard = true
+  madeWith = "Basado en [Bear Cub](https://github.com/clente/hugo-bearcub)"
   [params.social]
     linkedin = "dante-zulli"
   [params.author]
