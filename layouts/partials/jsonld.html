@@ -1,0 +1,50 @@
+{{- /* JSON-LD Structured Data for Google rich snippets */ -}} {{- /*
+https://codingnconcepts.com/hugo/structure-data-json-ld-hugo/ */ -}} {{ if
+.IsHome -}}
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": {{ .Site.Title | jsonify | safeJS }},
+        "url": {{ .Permalink | absURL | jsonify | safeJS }},
+        "description": {{ .Site.Params.description | jsonify | safeJS }}
+    }
+</script>
+{{- else if .IsPage -}} {{- $author := or .Params.author
+.Site.Params.author.name -}} {{- $title := .Title -}} {{- $description := or
+.Description (.Summary | plainify) .Site.Params.description -}} {{- $url :=
+.Permalink | absURL -}}
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "articleSection": {{ .Section | jsonify | safeJS }},
+        "name": {{ $title | jsonify | safeJS }},
+        "headline": {{ $title | jsonify | safeJS }},
+        "description": {{ $description | jsonify | safeJS }},
+        "inLanguage": {{ .Site.LanguageCode | jsonify | safeJS }},
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": {{ $url | jsonify | safeJS }}
+        },
+        "author": {
+            "@type": "Person",
+            "name": {{ $author | jsonify | safeJS }}
+        },
+        "publisher": {
+            "@type": "Person",
+            "name": {{ $author | jsonify | safeJS }}
+        },
+        {{- with .PublishDate }}
+        "datePublished": {{ .Format "2006-01-02T15:04:05-07:00" | jsonify | safeJS }},
+        {{- end }}
+        {{- with .Lastmod }}
+        "dateModified": {{ .Format "2006-01-02T15:04:05-07:00" | jsonify | safeJS }},
+        {{- end }}
+        "wordCount": {{ .WordCount }},
+        "url": {{ $url | jsonify | safeJS }},
+        "genre": [{{ range $i, $tag := .Params.tags }}{{ if $i }}, {{ end }}{{ $tag | jsonify | safeJS }}{{ end }}],
+        "keywords": [{{ range $i, $tag := .Params.tags }}{{ if $i }}, {{ end }}{{ $tag | jsonify | safeJS }}{{ end }}]
+    }
+</script>
+{{- end }}

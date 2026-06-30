@@ -11,10 +11,11 @@
         </title>
 
         {{- partial "seo_tags.html" . -}}
+        <link rel="canonical" href="{{ .Permalink | absURL }}" />
         <meta name="referrer" content="no-referrer-when-downgrade" />
 
-        {{ $style := print (default "original" .Site.Params.themeStyle) ".css" |
-        resources.Get | minify }}
+        {{- partial "jsonld.html" . -}} {{ $style := print (default "original"
+        .Site.Params.themeStyle) ".css" | resources.Get | minify }}
         <link href="{{ $style.RelPermalink }}" rel="stylesheet" />
 
         {{ if (.Page.Store.Get "hasCodeBlock") }} {{ $syntax := resources.Get

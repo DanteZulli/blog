@@ -34,7 +34,7 @@ enableRobotsTXT = true
 
 [params]
   title = "dantezulli.ar"
-  description = "Blog personal de Dante Zulli — software, proyectos, y pensamientos"
+  description = "Blog personal de Dante Zulli"
   # favicon = "images/favicon.png"
   dateFormat = "2006-01-02"
   generateSocialCard = true

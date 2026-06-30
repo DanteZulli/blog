@@ -56,7 +56,7 @@
 {{- end -}}
 
 {{- with .Params.audio }}<meta property="og:audio" content="{{ . }}" />{{ end }}
-{{- with .Params.locale }}<meta property="og:locale" content="{{ . }}" />{{ end }}
+<meta property="og:locale" content="{{ default .Site.LanguageCode .Params.locale }}" />
 {{- with .Site.Params.title }}<meta property="og:site_name" content="{{ . }}" />{{ end }}
 {{- with .Params.videos }}{{- range . }}
 <meta property="og:video" content="{{ . | absURL }}" />
@@ -91,20 +91,6 @@
 <meta name="twitter:title" content="{{ .Title }}"/>
 <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}"/>
 
-{{- $twitterSite := "" }}
-{{- with site.Params.social }}
-  {{- if reflect.IsMap . }}
-    {{- $twitterSite = .twitter }}
-  {{- end }}
-{{- end }}
-
-{{- with $twitterSite }}
-  {{- $content := . }}
-  {{- if not (strings.HasPrefix . "@") }}
-    {{- $content = printf "@%v" $twitterSite }}
-  {{- end }}
-<meta name="twitter:site" content="{{ $content }}"/>
-{{- end }}
 
 <!-- Microdata -->
 <!-- Source: https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/schema.html -->

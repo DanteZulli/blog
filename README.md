@@ -37,3 +37,10 @@ i18n/                      # Traducciones (es.toml)
 ## URLs
 
 `/` · `/blog/` · `/blog/:post/` · `/proyectos/` · `/proyectos/:proyecto/` · `/contacto/` · `/now/` · `/index.xml`
+
+## Performance
+
+| Dispositivo | PageSpeed Insights |
+|---|---|
+| 📱 Mobile | https://pagespeed.web.dev/analysis/https-dantezulli-ar/vci2qkj3nz?form_factor=mobile |
+| 🖥️ Desktop | https://pagespeed.web.dev/analysis/https-dantezulli-ar/vci2qkj3nz?form_factor=desktop |
