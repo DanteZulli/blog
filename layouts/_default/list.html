@@ -8,6 +8,7 @@
     <ul class="blog-posts">
         {{ range .Pages }}
         <li>
+            {{- if not .Date.IsZero }}
             <span>
                 <i>
                     <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
@@ -16,7 +17,7 @@
                     </time>
                 </i>
             </span>
-            {{ if .Params.link }}
+            {{- end }} {{ if .Params.link }}
             <a href="{{ .Params.link }}" target="_blank">{{ .Title }} ↪</a>
             {{ else }}
             <a href="{{ .RelPermalink }}">{{ .Title }}</a>
