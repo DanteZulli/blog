@@ -5,7 +5,7 @@
 
 ### un tipo apasionado por romper y arreglar cosas de todo tipo.
 
-![Dante y un dinosaurio](contact.jpeg)
+{{< img src="contact.jpeg" alt="Dante y un dinosaurio" >}}
 
 Actualmente me encuentro trabajando como **Software Engineer** en [MercadoLibre](https://es.wikipedia.org/wiki/Mercado_Libre), a unos años de recibirme de **Licenciado en Sistemas** en la [Universidad Nacional de Lanús](https://www.unla.edu.ar/), y viviendo en [Lomas de Zamora](https://lotr.fandom.com/wiki/Mordor).
 

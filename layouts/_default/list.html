@@ -27,7 +27,7 @@
         <li>{{ i18n "no-posts" }}</li>
         {{ end }}
     </ul>
-    {{ if not .Data.Singular }}
+    {{ if and (not .Data.Singular) (eq .Section "blog") }}
     <div>
         {{ range .Site.Taxonomies.tags }}
         <a class="blog-tags" href="{{ .Page.RelPermalink }}"

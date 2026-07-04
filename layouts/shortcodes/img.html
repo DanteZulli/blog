@@ -1,0 +1,12 @@
+{{- $img := .Page.Resources.Get (.Get "src") -}}
+{{- if not $img -}}
+  {{- errorf "img shortcode: imagen no encontrada en %s: %s" .Page.RelPermalink (.Get "src") -}}
+{{- end -}}
+<img
+  src="{{ $img.RelPermalink }}"
+  alt="{{ .Get "alt" }}"
+  width="{{ $img.Width }}"
+  height="{{ $img.Height }}"
+  loading="{{ .Get "loading" | default "lazy" }}"
+  {{- with .Get "class" }} class="{{ . }}"{{ end -}}
+/>

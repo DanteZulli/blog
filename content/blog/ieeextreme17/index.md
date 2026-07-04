@@ -23,7 +23,7 @@ No es mi primera vez redactando, pero si es la primera vez que escribo algo que 
 
 ## El Equipo
 
-![Foto del Equipo](equipo.jpg)
+{{< img src="equipo.jpg" alt="Foto del Equipo" >}}
 > Ariel, Dante (Yo) y Ramiro, en ese órden.\
 > PD: Sé que la calidad es paupérrima, pero todavía no pude encontrar las fotos originales.
 
@@ -45,7 +45,7 @@ Pero pegó, más adelante nos dimos cuenta que sí importa estar preparados, y q
 
 ## Programación Competitiva? Sí. Presencial? No. Durante 24hs? Esperá, qué...?
 
-![Escritorio con latas de RedBull](redbull.jpg)
+{{< img src="redbull.jpg" alt="Escritorio con latas de RedBull" >}}
 
 Si bien para cuando decidimos participar, yo ya contaba con algo de experiencia en la programación competitiva (5 ejercicios de Hackerrank a medio hacer), nunca había participado en una competencia presencial, menos en equipo, y mucho menos durante 24hs.\
 No sé si fue la promesa del catering durante todo el evento o qué (mentira, todos sabemos que sí lo guión), pero al menos yo no había dimensionado el semejante peso que tiene un evento de estas características.\
@@ -61,7 +61,7 @@ El resolver algo se sentía como el deber, como un "así tiene que ser", y el fa
 
 ## Palíndromos, mi némesis
 
-![Yo, sentado en mi escritorio](mi-escritorio.jpg)
+{{< img src="mi-escritorio.jpg" alt="Yo, sentado en mi escritorio" >}}
 > Nótese la cantidad de latas de energizantes en mi escritorio, el mate, el desodorante y alguna magia más.
 
 Recuerdo en un momento estar completamente trabado en un ejercicio algo complejo de creación de palíndromos cruzados en una matriz de sílabas. No recuerdo bien el enunciado, pero sí que en ese momento me costaba hasta entenderlo, mucho más resolverlo.
@@ -95,7 +95,7 @@ Manejar sus tiempos, sus descansos, saber escuchar lo que tu cuerpo te indica, y
 Voy a hacer un esfuerzo para que esta sección esté medianamente conectada párrafo a párrafo, aunque en realidad, va a auspiciar más de una lista de anécdotas, recuerdos y comentarios del evento que otra cosa.
 
 ### El equipo + 1
-![El equipo +1](equipo2.jpg)
+{{< img src="equipo2.jpg" alt="El equipo +1" >}}
 
 Quiero hacer una mención especial al cuarto integrante *"no integrante"* de nuestro equipo, de quien (perdón) no me acuerdo el nombre. \
 Se había anotado con un amigo, pero el amigo se bajó a último momento, y el flaco se presentó solo, como un campeón.\
@@ -103,7 +103,7 @@ Justo dio la casualidad de que le tocó en el salón de al lado, en un piso dond
 Lo único que tengo para objetar es que teníamos la mesa perfecta; tres ThinkPads... y el loco cayó con una IdeaPad. Pero bueno, al menos era Lenovo, qué sé yo.
 
 ### Rami llevó un limón para romper el hielo
-![Rami teniendo un limón](rami-limon.jpg)
+{{< img src="rami-limon.jpg" alt="Rami teniendo un limón" >}}
 
 La competencia arrancaba la noche de un viernes y se extendía hasta el sábado a la misma hora.  \
 El primer evento antes de comenzar era una reunión entre todos los equipos para conocernos mejor, compartir un poco, hacer sociales, y lo más importante; comer. \
@@ -118,7 +118,7 @@ Me acuerdo patente que, en un momento de la noche, largaron 3 ejercicios de golp
 Rami agarró, por lejos, el más jodido de todos. Un enunciado que mezclaba lógica, manos de póker, y algoritmos para resolver las mejores combinaciones en el menor tiempo posible. \
 Para nosotros era chino básico. Ari no lo terminaba de entender, y yo en ese momento ni siquiera sabía jugar al póker (pensaba que era como un chinchón con más pasos), así que ese ejercicio tenía dueño desde el minuto cero.
 
-![Rami resolviendo en el pizarrón](rami-pizarron.jpg)
+{{< img src="rami-pizarron.jpg" alt="Rami resolviendo en el pizarrón" >}}
 
 Pasaban las horas, seguían cayendo ejercicios, y nosotros avanzábamos con otras tareas mientras Rami seguía completamente metido en ese mismo ejercicio que se había comprometido a resolver hacía ya un buen rato. \
 En un momento (yo estaba sentado justo enfrente), lo escucho gritar de alegría y pegar un pequeño salto de emoción. \
@@ -146,7 +146,7 @@ A veces medio boludo, pero buena persona al fin.
 
 ### No tomen tanta Red Bull
 
-![Una foto de todos los participantes](todos.jpg)
+{{< img src="todos.jpg" alt="Una foto de todos los participantes" >}}
 
 En definitiva, el IEEEXtreme fue un sacudón emocional, físico y mental que me dejó recuerdos imborrables, amistades reforzadas y algunas lecciones que todavía sigo digiriendo. \
 No ganamos ningún premio, ni salimos primeros en nada, pero nos llevamos lo más valioso: la experiencia (y muchas latas de Red Bull).
