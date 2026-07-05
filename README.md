@@ -40,7 +40,4 @@ i18n/                      # Traducciones (es.toml)
 
 ## Performance
 
-| Dispositivo | PageSpeed Insights |
-|---|---|
-| 📱 Mobile | https://pagespeed.web.dev/analysis/https-dantezulli-ar/vci2qkj3nz?form_factor=mobile |
-| 🖥️ Desktop | https://pagespeed.web.dev/analysis/https-dantezulli-ar/vci2qkj3nz?form_factor=desktop |
+Link a [Google PageSpeed Insights](https://pagespeed.web.dev/)
