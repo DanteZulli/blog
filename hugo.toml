@@ -6,12 +6,12 @@ languageCode = "es-AR"
 enableRobotsTXT = true
 
 [[menu.main]]
-  name = "blog"
-  url = "/blog/"
-  weight = 1
-[[menu.main]]
   name = "now"
   url = "/now/"
+  weight = 1
+[[menu.main]]
+  name = "blog"
+  url = "/blog/"
   weight = 2
 [[menu.main]]
   name = "proyectos"
@@ -21,10 +21,6 @@ enableRobotsTXT = true
   name = "rss"
   url = "/index.xml"
   weight = 4
-[[menu.main]]
-  name = "contacto"
-  url = "/contacto/"
-  weight = 5
 
 [markup]
   [markup.highlight]

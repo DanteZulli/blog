@@ -111,6 +111,7 @@ blockquote {
     border-left: 1px solid #999;
     color: #ccc;
     padding-left: 20px;
+    margin: 0px;
     font-style: italic;
 }
 
