@@ -1,8 +1,15 @@
 {{ define "main" }}
 <article>
-  <h1>{{ .Title }}</h1>
-  <div class="content">
-    {{ .Content }}
-  </div>
+    <h1>{{ .Title }}</h1>
+    {{ if .Date }}
+    <p class="byline">
+        {{ i18n "last-updated" }}:
+        <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate
+            >{{ .Date.Format (default "2006-01-02" .Site.Params.dateFormat)
+            }}</time
+        >
+    </p>
+    {{ end }}
+    <div class="content">{{ .Content }}</div>
 </article>
 {{ end }}

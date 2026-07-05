@@ -10,5 +10,8 @@
 [email-reply]
   other = "Responder a este artículo por email"
 
+[last-updated]
+  other = "Última actualización"
+
 [skip-link]
   other = "Saltar al contenido principal"
