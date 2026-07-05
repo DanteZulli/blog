@@ -18,9 +18,15 @@
                 </i>
             </span>
             {{- end }} {{ if .Params.link }}
-            <a href="{{ .Params.link }}" target="_blank">{{ .Title }} ↪</a>
+            <a href="{{ .Params.link }}" target="_blank"
+                >{{ .Title }}{{ with .Params.description }} – {{ . }}{{ end }}
+                ↪</a
+            >
             {{ else }}
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            <a href="{{ .RelPermalink }}"
+                >{{ .Title }}{{ with .Params.description }} – {{ . }}{{ end
+                }}</a
+            >
             {{ end }}
         </li>
         {{ else }}
