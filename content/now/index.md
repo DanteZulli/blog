@@ -6,9 +6,7 @@ layout = "page"
 
 ### Qué estoy haciendo ahora?
 
-Siguiendo la filosofía del [movimiento /now](https://nownownow.com/about) de Derek Silvers, y dado que soy muy malo escribiendo los "about me", esta es mi página del _ahora_, y está destinada (entre otras cosas) a compartir en qué estoy enfocado en este punto de mi vida.
-
-Y también otras cosas varias de mi actualidad que me gusta compartir :D
+Siguiendo la filosofía del [movimiento /now](https://nownownow.com/about) de Derek Silvers, y dado que soy muy malo escribiendo los "about me", esta es mi página del _ahora_; un espacio destinado a compartir en qué estoy enfocado en este punto de mi vida... y otras cosas varias de mi actualidad
 
 {{< img src="carlitos.jpeg" alt="Carlitos, mi nuevo perrito roomie" >}}
 > Tengo un nuevo compañero de piso! Se llama Carlitos :3
@@ -25,8 +23,8 @@ Para quién le interese, les dejo [este "excelsito"](https://docs.google.com/spr
 
 Nunca fuí fan del concepto de alquilar. Siempre tuve el sueño de tener mi terreno y hacer mi casa a _gusto y piacere_, con suficiente lugar para todos mis hobbies y un gran patio lleno de árboles.
 
-Este año (2026) pude empezar a proyectar el ya construir algo con mis propias manos, de a poquito, y me emociona mucho el proyecto. 
-Más allá de ser un gran paso en mi vida, además lo estoy usando cómo excusa para aprender un montón de cosas nuevas, desde cómo confeccionar un plano, hasta cómo aislar una pared, y (para sorpresa de nadie) me encanta! \
+Este año (2026) pude empezar a proyectar el ya construir algo con mis propias manos, de a poquito, y me emociona mucho el proyecto. \
+Más allá de ser un gran paso en mi vida, lo estoy usando cómo excusa para aprender un montón de cosas nuevas, desde cómo se confecciona un plano de obra, hasta cómo aislar una pared, y (para sorpresa de nadie) me encanta! \
 Es la excusa perfecta para adentrarme en un mundo completamente nuevo, distraerme, y seguir coleccionando hobbies :D
 
 ### Libros que estoy leyendo
@@ -37,4 +35,4 @@ Estoy en busca de algún buen policial poco conocido, o de algún libro con el q
 
 ### Charlas y exposiciones
 
-Desde hace ya más de 6 años asisto a distintos eventos nerds tales como el [Flisol](https://flisol.info/) o [Nerdearla](https://nerdearla.com/en/) como oyente, y mis ganas de preparar una buena charla para exponer no hacen más que subir. Es algo que, de cierta forma, "reaviva mi espíritu", así que hoy por hoy me encuentro recolectando ideas, hasta que alguna me haga animarme!
+Desde hace ya más de 6 años asisto como oyente a distintos eventos nerds tales como el [Flisol](https://flisol.info/) o [Nerdearla](https://nerdearla.com/en/), y mis ganas de preparar una buena charla para exponer no hacen más que subir. Es algo que, de cierta forma, "reaviva mi espíritu", así que hoy por hoy me encuentro recolectando ideas, hasta que alguna me haga animarme a subir al escenario!
