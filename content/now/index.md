@@ -6,7 +6,7 @@ layout = "page"
 
 ### Qué estoy haciendo ahora?
 
-Siguiendo la filosofía del [movimiento /now](https://nownownow.com/about) de Derek Silvers, y dado que soy muy malo escribiendo los "about me", esta es mi página del _ahora_; un espacio destinado a compartir en qué estoy enfocado en este punto de mi vida... y otras cosas varias de mi actualidad
+Siguiendo la filosofía del [movimiento /now](https://nownownow.com/about) de Derek Sivers, y dado que soy muy malo escribiendo los "about me", esta es mi página del _ahora_; un espacio destinado a compartir en qué estoy enfocado en este punto de mi vida... y otras cosas varias de mi actualidad
 
 {{< img src="carlitos.jpeg" alt="Carlitos, mi nuevo perrito roomie" >}}
 > Tengo un nuevo compañero de piso! Se llama Carlitos :3
