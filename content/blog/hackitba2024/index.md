@@ -23,7 +23,7 @@ Demás está decir que esto no lo estoy redactando ni remotamente cerca de la fe
 
 ## Los Cuatro Jinetes del Apocalipsis
 
-{{< img src="Hackitba24_d2-224.jpg" alt="Foto del Equipo" >}}
+{{< img src="images/equipo_0.jpg" alt="Foto del Equipo" >}}
 
 > De izquierda a derecha; Roman, Yo, Ari y Rami, totalmente destruídos.
 
@@ -39,13 +39,13 @@ Apenas habiéndonos conocido, me lancé a invitarlo a este evento porque me sent
 
 ## Premoniciones
 
-{{< img src="Hackitba24_d1-100.jpg" alt="Foto del Equipo (Durante la Presentación)" >}}
+{{< img src="images/equipo_presentacion.jpg" alt="Foto del Equipo (Durante la Presentación)" >}}
 
 Cómo ya saben (y si no saben se los comento) no soy una persona "seria", cómo la gente suele decir y eso se nota en los nombres de los equipos que conformo. 
 
 Mientras estábamos proponiendo ideas en el grupo de WhatsApp, y no lográbamos decidirnos, Roman mandó un sticker, más concretamente este sticker:
 
-{{< img src="carpincho-meme.jpeg" alt="Es todo un tema carpincho meme" >}}
+{{< img src="images/carpincho_meme.jpeg" alt="Es todo un tema carpincho meme" >}}
 
 Y así mágicamente, un poco por joder, un poco por la moda de los carpinchos y otro poco porque sí, llegó el nombre; "Y... es todo un tema viste." (Leído tal cuál cómo se escribió, con puntos suspensivos y todo).
 
@@ -72,7 +72,7 @@ Sí, las cosas no pintaban bien desde un principio, y para cólmo, a medida que 
 
 > PD: Acá iba a hacer una referencia al pozo de Mortal Kombat 4 de la PSX, pero la verdad que después de pensarlo por un buen rato, me dí cuenta de que no había mucha vuelta que darle al chiste. De verdad se sintió cómo estar cayendo en un pozo profundo que pareciera no tener fin, acá les dejo una imagen de referencia:
 
-{{< img src="chatgpt-pozo-mk4.png" alt="Imagen del equipo en estilo Pixel Art, cayendo por un pozo cómo el de MK4" >}}
+{{< img src="images/chatgpt_pozo_mk4.png" alt="Imagen del equipo en estilo Pixel Art, cayendo por un pozo cómo el de MK4" >}}
 
 > PD 2: ChatGPT dibujó un 5to integrante, que se vê que eran mis ganas de participar. Lo gracioso es que cuándo le pedí que lo elimine en la reedición, nos hizo a todos con cara de culo. Interesante moraleja...
 
@@ -82,7 +82,7 @@ Empujados por la temática, con nuestro equipo decidimos que queríamos hacer "a
 Recomendaciones de salud, de alimentación, música para calmar y alejar las malas vibras, instructor de técnicas de respiración, chat anónimo en tiempo real, foros, LLM's, llamadas ante urgencias, recomendación de otras apps y no me acuerdo ya cuántas otras cosas más se nos cruzaron por la mente al momento de dar pie al proyecto. Sâlo se que tiramos todo eso en una gran olla, le pusimos un toque de salsita, y rogamos con que sea el mejor guiso por 5 pesos jamás inventado. \
 Y bueno, nos salió... esto:
 
-{{< img src="notas-2.jpeg" alt="Notas de Jano" >}}
+{{< img src="images/notas_2.jpeg" alt="Notas de Jano" >}}
 
 Cómo todo proyecto con poca proyección de vida, obtiene primero su nombre antes que su propósito; "Jano", que en la mitología romana, es el dios de los comienzos, las puertas y los finales, en nuestro caso, era sólo una vaga referencia agarrada de los pelos sobre la salud mental, que tenía poca identidad. De hecho, esa imagen de arriba fue nuestro PRIMER Y ÚNICO draft para empezar a diseñar esto que llamamos aplicación. Cómo pueden ver, es un poco de todo, y a la vez nada de nada, pero aún asi hicimos un esfuerzo y logramos "dividir tareas" para llegar a desarrollar lo que sea que haya sido esa cosa con nombre bonito y lema esperanzador. \
 Lo bueno de todo esto, es que el objetivo estaba claro: hacer y entregar "algo"
@@ -138,7 +138,7 @@ El modelo en cuestión que tomamos fût el (para entonces) nuevo modelo de Googl
 No sólo no logramos nada con estos modelos, sino que los resultados fueron bastante contraproducentes.\
 Al final, terminamos "drafteando" un simil chatbot concatendando llamadas a la API de Open AI y agregándole contexto hardcodeado el payload xD
 
-{{< img src="notas-1.jpeg" alt="Notas de Jano" >}}
+{{< img src="images/notas_1.jpeg" alt="Notas de Jano" >}}
 
 > Estas son las únicas notas que encontré al respecto... Lo único prolijo es la llamita :P
 
@@ -179,7 +179,7 @@ La verdad, no recuerdo específicamente quienes eran (tampoco es que le dí much
 
 Claramente no escuchamos un carajo, y es por eso que seguimos avanzando con lo que sea que fûe esta cosa que terminamos presentando...
 
-{{< img src="{FBB075E1-B268-4BEF-AE32-06BFD03C866F}.png" alt="Capturas de Jano" >}}
+{{< img src="images/jano_capturas.png" alt="Capturas de Jano" >}}
 
 Si bien no se ve feo, y parece que tiene muchísima información útil, créanme cuándo les digo que es todo y a la vez nada.\
 Y sí, saqué capturas y las pegué en un excalidraw porque no me atrevo a intentar levantar ese proyecto de la ultratumba.
