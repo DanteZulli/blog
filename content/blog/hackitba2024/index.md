@@ -5,7 +5,6 @@ title = "HackITBA 2024"
 description = "El nacimiento, la vida, y la muerte de 'Jano'"
 author = "Dante Zulli"
 tags = ["ia", "tech", "programming"]
-layout = "single"
 +++
 
 Buenas! Cómo andan? Todo bien? Yo por mi parte fenomenal. \

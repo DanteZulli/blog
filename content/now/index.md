@@ -1,5 +1,5 @@
 +++
-date = "2026-07-05"
+date = "2026-07-21"
 title = "now"
 layout = "page"
 +++
@@ -9,7 +9,7 @@ layout = "page"
 Siguiendo la filosofía del [movimiento /now](https://nownownow.com/about) de Derek Sivers, y dado que soy muy malo escribiendo los "about me", esta es mi página del _ahora_; un espacio destinado a compartir en qué estoy enfocado en este punto de mi vida... y otras cosas varias de mi actualidad
 
 {{< img src="carlitos.jpeg" alt="Carlitos, mi nuevo perrito roomie" >}}
-> Tengo un nuevo compañero de piso! Se llama Carlitos :3
+> Tengo un nuevo compañero de piso! Se llama ~Carlitos~ Chicho :3
 
 ### Universidad
 

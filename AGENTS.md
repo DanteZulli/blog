@@ -90,7 +90,7 @@ There are no traditional unit tests in this Hugo site. Validate changes by runni
 
 ### CSS (assets/)
 
-**Indentation:** 4 spaces  
+**Indentation:** 4 spaces
 **Naming:** kebab-case selectors
 **Organization:** Group related styles, use comments sparingly
 ```css

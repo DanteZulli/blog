@@ -17,7 +17,7 @@ hugo new content blog/mi-post/index.md
 hugo new content proyectos/mi-proyecto/index.md
 ```
 
-Los posts nuevos arrancan como `draft = true`. Para publicarlos, pasalos a `draft = false`.  
+Los posts nuevos arrancan como `draft = true`. Para publicarlos, pasalos a `draft = false`.
 Los proyectos pueden tener un `link` en el front matter para redirigir externo.
 
 ## Estructura
