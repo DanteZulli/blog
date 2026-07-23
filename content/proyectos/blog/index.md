@@ -1,7 +1,7 @@
 +++
 title = "Blog"
 date = "2026-01-12"
-description = "Mi blog personal hecho con Hugo"
+description = "Esta mismísima página"
 group = "active"
 layout = "single"
 +++
