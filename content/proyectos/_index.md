@@ -1,4 +1,5 @@
 +++
 title = "proyectos"
+layout = "projects"
 +++
 

@@ -1,0 +1,23 @@
+{{ define "main" }}
+<content>
+    <h1>{{ .Title }}</h1>
+
+    {{ $groups := slice "active" "side-quests" "archived" }}
+    {{ $labels := dict "active" "En curso" "side-quests" "Side quests" "archived" "Antiguos" }}
+
+    {{ range $groups }}
+        {{ $group := . }}
+        {{ $groupPages := where $.Pages ".Params.group" . }}
+        {{ with $groupPages }}
+        <h3>{{ index $labels $group }}</h3>
+        <ul class="blog-posts">
+            {{ range . }}
+            <li>
+                •&nbsp;<a href="{{ .RelPermalink }}">{{ .Title }}{{ with .Params.description }} – {{ . }}{{ end }}</a>
+            </li>
+            {{ end }}
+        </ul>
+        {{ end }}
+    {{ end }}
+</content>
+{{ end }}

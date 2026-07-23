@@ -1,6 +1,7 @@
 +++
 date = "2023-10-28"
 draft = false
+layout = "single"
 title = "IEEEXtreme 17"
 description = "Mi primer experiencia con la programación competitiva en equipos"
 author = "Dante Zulli"
