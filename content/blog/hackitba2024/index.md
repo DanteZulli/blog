@@ -3,7 +3,7 @@ date = "2024-03-30"
 draft = false
 layout = "single"
 title = "HackITBA 2024"
-description = "El nacimiento, la vida, y la muerte de 'Jano'"
+description = 'El nacimiento, la vida, y la muerte de "Jano"'
 author = "Dante Zulli"
 tags = ["ia", "tech", "programming"]
 +++
