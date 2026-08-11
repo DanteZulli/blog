@@ -5,7 +5,7 @@ layout = "single"
 title = "IEEEXtreme 17"
 description = "Mi primer experiencia con la programación competitiva en equipos"
 author = "Dante Zulli"
-tags = ["programming"]
+tags = []
 +++
 
 Buenas! Como andan? Todo bien? \

@@ -1,5 +1,5 @@
 +++
-date = '2026-06-28T22:09:27-03:00'
+date = '2026-06-28'
 draft = true
 layout = "single"
 title = 'Dispositivos Con Propósito'
