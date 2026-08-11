@@ -29,7 +29,7 @@ Es la excusa perfecta para adentrarme en un mundo completamente nuevo, distraerm
 
 ### Libros que estoy leyendo
 
-Actualmente me encuentro leyendo [1984 de George Orwell](https://en.wikipedia.org/wiki/Nineteen_Eighty-Four) y [El Inversor Inteligente de Benjamin Graham](https://en.wikipedia.org/wiki/The_Intelligent_Investor), pero mi biblioteca/backlog no para de crecer. Probablemente en cuánto lo termine siga con [Siddhartha de  Hermann Hesse](https://en.wikipedia.org/wiki/Siddhartha_(novel)) que me lo compré en un 2x1 junto con [El lobo estepario](https://en.wikipedia.org/wiki/Steppenwolf_(novel)) también del mismo autor.
+Actualmente me encuentro leyendo [Siddhartha de  Hermann Hesse](https://en.wikipedia.org/wiki/Siddhartha_(novel)) y [El Inversor Inteligente de Benjamin Graham](https://en.wikipedia.org/wiki/The_Intelligent_Investor), pero mi biblioteca/backlog no para de crecer. Probablemente en cuánto termine Siddhartha siga con [El lobo estepario](https://en.wikipedia.org/wiki/Steppenwolf_(novel)), también del mismo autor, que me lo compré en 2x1.
 
 Estoy en busca de algún buen policial poco conocido, o de algún libro con el que pueda llenar los espacios vacíos del día a día (al estilo [Cuentos breves y extraordinarios de Borges y Bioy](https://es.wikipedia.org/wiki/Cuentos_breves_y_extraordinarios)), así que si tienen alguna recomendación, estaría agradecido de recibirla!
 
