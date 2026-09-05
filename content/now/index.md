@@ -9,7 +9,8 @@ layout = "page"
 Siguiendo la filosofía del [movimiento /now](https://nownownow.com/about) de Derek Sivers, y dado que soy muy malo escribiendo los "about me", esta es mi página del _ahora_; un espacio destinado a compartir en qué estoy enfocado en este punto de mi vida... y otras cosas varias de mi actualidad
 
 {{< img src="carlitos.jpeg" alt="Carlitos, mi nuevo perrito roomie" >}}
-> Tengo un nuevo compañero de piso! Se llama ~Carlitos~ Chicho :3
+
+> Tengo un nuevo compañero de piso! Se llama ~~Carlitos~~ Chicho :3
 
 ### Universidad
 
@@ -29,9 +30,15 @@ Es la excusa perfecta para adentrarme en un mundo completamente nuevo, distraerm
 
 ### Libros que estoy leyendo
 
-Actualmente me encuentro leyendo [Siddhartha de  Hermann Hesse](https://en.wikipedia.org/wiki/Siddhartha_(novel)) y [El Inversor Inteligente de Benjamin Graham](https://en.wikipedia.org/wiki/The_Intelligent_Investor), pero mi biblioteca/backlog no para de crecer. Probablemente en cuánto termine Siddhartha siga con [El lobo estepario](https://en.wikipedia.org/wiki/Steppenwolf_(novel)), también del mismo autor, que me lo compré en 2x1.
+Actualmente me encuentro leyendo [El hombre en busca de sentido](https://en.wikipedia.org/wiki/Man%27s_Search_for_Meaning) de Viktor E. Frankl (LIBRAZO!!), pero mi lista de pendientes no para de crecer, así que si tienen alguna recomendación estaría agradecido de recibirla!
 
-Estoy en busca de algún buen policial poco conocido, o de algún libro con el que pueda llenar los espacios vacíos del día a día (al estilo [Cuentos breves y extraordinarios de Borges y Bioy](https://es.wikipedia.org/wiki/Cuentos_breves_y_extraordinarios)), así que si tienen alguna recomendación, estaría agradecido de recibirla!
+De momento me interesaría leer...
+
+...algún buen policial poco conocido.
+
+...algún libro con el que pueda llenar los espacios vacíos del día a día (al estilo [Cuentos breves y extraordinarios de Borges y Bioy](https://es.wikipedia.org/wiki/Cuentos_breves_y_extraordinarios)).
+
+...comics (no manga/manwha). Un amigo me recomendó [Watchmen](https://en.wikipedia.org/wiki/Watchmen), que todavía lo tengo pendiente.
 
 ### Charlas y exposiciones
 
