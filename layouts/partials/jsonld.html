@@ -22,7 +22,7 @@ https://codingnconcepts.com/hugo/structure-data-json-ld-hugo/ */ -}} {{ if
         "name": {{ $title | jsonify | safeJS }},
         "headline": {{ $title | jsonify | safeJS }},
         "description": {{ $description | jsonify | safeJS }},
-        "inLanguage": {{ .Site.LanguageCode | jsonify | safeJS }},
+        "inLanguage": {{ .Site.Language.Locale | jsonify | safeJS }},
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": {{ $url | jsonify | safeJS }}
