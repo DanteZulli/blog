@@ -1,0 +1,37 @@
+# {{ .Site.Title }}
+
+> {{ .Site.Params.description }}
+> Full markdown versions available at each page URL + llms.txt (e.g. /blog/my-post/llms.txt).
+
+- URL: {{ .Permalink }}
+- Full index markdown: {{ .Permalink }}llms.txt
+
+{{ with .RawContent }}
+---
+
+{{ partial "llms-markdown.html" $ }}
+{{ end }}
+
+---
+
+## Blog
+
+{{ range where .Site.RegularPages "Section" "blog" -}}
+- [{{ .Title }}]({{ .Permalink }}){{ with .Params.description }}: {{ . }}{{ end }} — llms: {{ .Permalink }}llms.txt
+{{ else -}}
+No posts yet.
+{{ end }}
+## Proyectos
+
+{{ range where .Site.RegularPages "Section" "proyectos" -}}
+- [{{ .Title }}]({{ .Permalink }}){{ with .Params.description }}: {{ . }}{{ end }} — llms: {{ .Permalink }}llms.txt
+{{ else -}}
+No projects yet.
+{{ end }}
+## Pages
+
+{{ range where .Site.RegularPages "Section" "not in" (slice "blog" "proyectos") -}}
+- [{{ .Title }}]({{ .Permalink }}){{ with .Params.description }}: {{ . }}{{ end }} — llms: {{ .Permalink }}llms.txt
+{{ else -}}
+No extra pages.
+{{ end }}

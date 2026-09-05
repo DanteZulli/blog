@@ -1,0 +1,62 @@
+{{- $page := . -}}
+{{- $content := $page.RawContent | default "" -}}
+{{- $base := strings.TrimSuffix "/" $page.Site.BaseURL -}}
+{{- $pagePermalink := $page.Permalink -}}
+
+{{- /* Expand {{< img src="..." alt="..." >}} to markdown image with absolute URL */ -}}
+{{- $imgTags := findRE `\{\{<\s*img[^>]*>\}\}` $content -}}
+{{- range $imgTags -}}
+  {{- $tag := . -}}
+  {{- $src := replaceRE `(?s).*src="([^"]+)".*` `$1` $tag -}}
+  {{- if ne $src $tag -}}
+    {{- $alt := "" -}}
+    {{- if findRE `alt="` $tag -}}
+      {{- $alt = replaceRE `(?s).*alt="([^"]*)".*` `$1` $tag -}}
+    {{- end -}}
+    {{- $url := $src -}}
+    {{- if or (hasPrefix $src "http://") (hasPrefix $src "https://") (hasPrefix $src "mailto:") (hasPrefix $src "#") -}}
+      {{- $url = $src -}}
+    {{- else if hasPrefix $src "/" -}}
+      {{- $url = printf "%s%s" $base $src -}}
+    {{- else -}}
+      {{- with $page.Resources.Get $src -}}
+        {{- $url = .Permalink -}}
+      {{- else -}}
+        {{- $url = printf "%s%s" $pagePermalink $src -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $md := printf "![%s](%s)" $alt $url -}}
+    {{- $content = replace $content $tag $md -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* Expand {{< highlight "lang" >}}code{{< /highlight >}} to fenced code blocks */ -}}
+{{- $hlOpens := findRE `\{\{<\s*highlight[^\}]*>\}\}` $content -}}
+{{- range $hlOpens -}}
+  {{- $open := . -}}
+  {{- $lang := "text" -}}
+  {{- if findRE `highlight\s+"[^"]+"` $open -}}
+    {{- $lang = replaceRE `(?s).*highlight\s+"([^"]+)".*` `$1` $open -}}
+  {{- else if findRE `highlight\s+[^\s\}"]+` $open -}}
+    {{- $lang = replaceRE `(?s).*highlight\s+([^\s\}"]+).*` `$1` $open -}}
+  {{- end -}}
+  {{- $fence := printf "```%s" $lang -}}
+  {{- $content = replace $content $open $fence -}}
+{{- end -}}
+{{- $hlCloses := findRE `\{\{<\s*/highlight\s*>\}\}` $content -}}
+{{- range $hlCloses -}}
+  {{- $content = replace $content . "```" -}}
+{{- end -}}
+
+{{- /* Strip {{< rawhtml >}} wrappers, keep inner content */ -}}
+{{- $rawTags := findRE `\{\{<\s*/?rawhtml\s*>\}\}` $content -}}
+{{- range $rawTags -}}
+  {{- $content = replace $content . "" -}}
+{{- end -}}
+
+{{- /* Absolutize root-relative markdown links: ](/blog -> ](https://site/blog */ -}}
+{{- $content = replace $content `](/` (printf "](%s/" $base) -}}
+{{- /* Absolutize bundle-relative image paths: ](images/ -> ](PAGEPermalink/images/ */ -}}
+{{- $content = replace $content "](images/" (printf "](%simages/" $pagePermalink) -}}
+
+{{- $content | safeHTML -}}

@@ -9,6 +9,20 @@ defaultContentLanguage = "es"
     weight = 1
 enableRobotsTXT = true
 
+[mediaTypes."text/markdown"]
+suffixes = ["txt", "md", "markdown"]
+
+[outputFormats.LLMS]
+mediaType = "text/markdown"
+baseName = "llms"
+isPlainText = true
+notAlternative = true
+
+[outputs]
+home = ["HTML", "RSS", "LLMS", "ROBOTS"]
+page = ["HTML", "LLMS"]
+section = ["HTML", "RSS", "LLMS"]
+
 [[menu.main]]
   name = "now"
   url = "/now/"

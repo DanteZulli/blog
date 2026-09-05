@@ -1,0 +1,13 @@
+# {{ .Title }}
+
+{{ with .Params.description }}> {{ . }}
+{{ end }}
+- URL: {{ .Permalink }}
+- Full markdown: {{ .Permalink }}llms.txt
+{{ if not .Date.IsZero }}- Date: {{ .Date.Format "2006-01-02" }}{{ end }}
+{{ with .Params.author }}- Author: {{ . }}{{ end }}
+{{ with .GetTerms "tags" }}- Tags: {{ range $i, $t := . }}{{ if $i }}, {{ end }}#{{ $t.LinkTitle }}{{ end }}{{ end }}
+
+---
+
+{{ partial "llms-markdown.html" . }}

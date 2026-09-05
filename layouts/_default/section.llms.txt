@@ -1,0 +1,14 @@
+# {{ .Title }} | {{ .Site.Title }}
+
+> Section index: {{ .Permalink }}
+
+- URL: {{ .Permalink }}
+- Full markdown: {{ .Permalink }}llms.txt
+
+## Pages
+
+{{ range .Pages -}}
+- [{{ .Title }}]({{ .Permalink }}){{ with .Params.description }}: {{ . }}{{ end }} — llms: {{ .Permalink }}llms.txt
+{{ else -}}
+No pages yet.
+{{ end }}
