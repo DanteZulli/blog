@@ -3,6 +3,7 @@ title = "Music for Car"
 date = "2026-04-08"
 description = "Convertí cualquier audio a MP3 para tu auto"
 group = "side-quests"
+author = "Dante Zulli"
 layout = "single"
 +++
 

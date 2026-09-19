@@ -3,6 +3,7 @@ title = "Diet Formulator"
 date = "2026-07-15"
 description = "Formulador nutricional de dietas para perros y gatos"
 group = "active"
+author = "Dante Zulli"
 layout = "single"
 +++
 

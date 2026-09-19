@@ -15,3 +15,6 @@
 
 [skip-link]
   other = "Saltar al contenido principal"
+
+[repo-link]
+  other = "Link al repo"

@@ -3,6 +3,7 @@ title = "Citadel Commander"
 date = "2025-05-31"
 description = "Juego hecho para la Game Jam de Paisanos"
 group = "archived"
+author = "Dante Zulli"
 layout = "single"
 +++
 

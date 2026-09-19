@@ -4,6 +4,7 @@ date = "2026-01-12"
 draft = "true"
 description = "Esta mismísima página"
 group = "active"
+author = "Dante Zulli"
 link = "https://github.com/DanteZulli/blog"
 layout = "single"
 +++
@@ -24,6 +25,6 @@ Para quienes estén interesados en hacer un poco de investigación extra, los in
 
 De hecho, estoy seguro de que gran parte de lo que alguna vez implementaste, o planeabas implementar via JS, tiene una solución nativa en HTML o CSS, así como estoy seguro de que el camino para resolver X problema que un framework te solucione, se puede resolver de manera mucho más práctica y directa a través de vanilla JS, y aprendiendo mucho en el camino!
 
-No digo que todo tenga que ser como el ecosistema Java con Spring o Quarkus, no polaricen mi comentario, de hecho apoyo mucho la filosofía de *"do your own X"* y pienso que es lo que nos trajo variedad en el mundo de Linux y sus distros, pero así como esta variedad tiene como negativo su abrumadora barrera de entrada, considero que la sobreexplotación de frameworks y el engorde innecesario de los sitios trae más pros que cons.
+No digo que todo tenga que ser como el ecosistema Java con Spring o Quarkus, no polaricen mi comentario, de hecho apoyo mucho la filosofía de _"do your own X"_ y pienso que es lo que nos trajo variedad en el mundo de Linux y sus distros, pero así como esta variedad tiene como negativo su abrumadora barrera de entrada, considero que la sobreexplotación de frameworks y el engorde innecesario de los sitios trae más pros que cons.
 
 > No quería cerrar este post sin hacer una mención especial a [Caio Lente](https://lente.dev/), cuyo trabajo y contribuciones me animaron a hacer este blog posible, y cuyos posts me invitaron a leer y adentrarme mucho más en materia!

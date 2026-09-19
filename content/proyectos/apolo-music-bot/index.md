@@ -3,6 +3,7 @@ title = "Apolo Music Bot"
 date = "2026-06-15"
 description = "Bot de música para Discord"
 group = "active"
+author = "Dante Zulli"
 layout = "single"
 +++
 
