@@ -30,7 +30,7 @@ La [indie web](https://en.wikipedia.org/wiki/IndieWeb) al fin y al cabo la hacem
 
 Es hora de hablar de esta mismísima página.
 
-Está hecha con [Hugo](https://gohugo.io/), mi framework de generación de sitios estáticos de preferencia. Si bien lo que escribo es [markdown](https://www.markdownguide.org/), una vez compilado es HTML y CSS plano, que puedo agarrar y llevarme sin problema para colgarlo en cualquier lado.
+Está hecha con [Hugo](https://gohugo.io/), mi framework de generación de sitios estáticos de preferencia, y me permite seguir los principios de [Jeff](https://jeffhuang.com/) lo más de cerca posible. Si bien lo que escribo es [markdown](https://www.markdownguide.org/), una vez compilado es HTML y CSS plano, que puedo agarrar y llevarme sin problema para colgarlo en cualquier lado.
 Está muy bien documentado y me brinda muchas facilidades, la experiencia de desarrollo es muy buena, facilita mucho el mantenimiento del sitio, compila rapidísimo, produce resultados ligeros, y se integra muy bien con flujos de desarrollo agéntico.
 
 > Dato curioso: Antes estaba hecho en [Astro](https://astro.build/) (sí, un framework de JS), pero para mi caso de uso, escribir en MD y armar templates en [Go](https://go.dev/) es mucho más práctico.
