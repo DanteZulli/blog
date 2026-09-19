@@ -17,7 +17,7 @@ Me parecen un punto medio entre un celular y una PC que no termina de satisfacer
 
 Resulta ser que yo, unos días antes me encontraba ordenando mi "búnker", revisando cajas, muebles y organizadores viejos donde suelo acumular hardware y tecnología ya obsoleta, y me topé con dos anticuadas tablets "chinas" muy primitivas, con especificaciones similares (y paupérrimas) que a fines prácticos, hoy en día no sirven para nada.
 
-{{< img src="images/tablets.jpeg" alt="Las dos Tablets, lado a lado" >}}
+![Las dos Tablets, lado a lado](images/tablets.jpeg)
 
 Como armar una computadora (por mucho que hubiera querido) no era una opción, ya que las dos son todavía "chicas", y la barrera de entrada generaría más frustración que otra cosa, el camino estaba definido; había que reconvertir esas dos tablets en los dispositivos útiles que alguna vez supieron ser (ponele xD).
 

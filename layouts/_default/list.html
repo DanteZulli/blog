@@ -17,17 +17,11 @@
                     </time>
                 </i>
             </span>
-            {{- end }} {{ if .Params.link }}
-            <a href="{{ .Params.link }}" target="_blank"
-                >{{ .Title }}{{ with .Params.description }} – {{ . }}{{ end }}
-                ↪</a
-            >
-            {{ else }}
+            {{- end }}
             <a href="{{ .RelPermalink }}"
                 >{{ .Title }}{{ with .Params.description }} – {{ . }}{{ end
                 }}</a
             >
-            {{ end }}
         </li>
         {{ else }}
         <li>{{ i18n "no-posts" }}</li>

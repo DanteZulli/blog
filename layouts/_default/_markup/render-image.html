@@ -1,0 +1,20 @@
+{{- $img := .Page.Resources.Get .Destination -}}
+{{- if $img -}}
+<img
+    src="{{ $img.RelPermalink }}"
+    alt="{{ .PlainText }}"
+    width="{{ $img.Width }}"
+    height="{{ $img.Height }}"
+    loading="lazy"
+    decoding="async"
+    {{- with .Title }} title="{{ . }}"{{- end -}}
+/>
+{{- else -}}
+<img
+    src="{{ .Destination | safeURL }}"
+    {{- with .PlainText }} alt="{{ . }}"{{ end -}}
+    {{- with .Title }} title="{{ . }}"{{ end -}}
+    loading="lazy"
+    decoding="async"
+/>
+{{- end -}}

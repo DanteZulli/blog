@@ -14,7 +14,7 @@ Si leen habitualmente en internet (cómo yo) y son observadores, quizá se hayan
 
 Desde la normalización del consumo y uso de la inteligencia artificial, la cantidad de textos escritos _en su totalidad_ por humanos fue cayendo en picado, mientras que los escritos por inteligencia artificial aumentaron brutalmente, a tal punto de que hoy en día [se revirtió la tendencia](https://graphite.io/five-percent/research/ai-now-writes-as-many-online-articles-as-humans-do), volviendo complicado, difícil (y hasta extraño) encontrar algo para leer que haya escrito un humano **real**.
 
-{{< img src="images/graph.png" alt="Gráfico de contenido generado por IA vs contenido generado por humanos" >}}
+![Gráfico de contenido generado por IA vs contenido generado por humanos](images/graph.png)
 
 No soy muy fanático de las teorías conspirativas, pero he de admitir que esto no hace más que convertir a la [teoría del internet muerto](https://en.wikipedia.org/wiki/Dead_Internet_theory) en realidad. De hecho, Mark Zuckerberg ya confirmó que comenzará a [introducir (o reemplazar) usuarios de sus redes sociales más utilizadas por "bots"](https://www.rollingstone.com/culture/culture-news/meta-ai-users-facebook-instagram-1235221430/). Esto, sumado a su reciente compra de [la red social para IA's](https://gizmodo.com/mark-zuckerberg-decides-meta-needs-more-slop-buys-the-social-network-for-ai-agents-2000731931) pareciera confirmar que cada vez importa menos el aspecto social (y humano) del contenido que nos encontramos en internet.
 
@@ -29,7 +29,7 @@ Es el uso que se le da a esta lo que la puede volver "malvada" o "perjudicial" p
 
 ## Que podemos hacer?
 
-{{< img src="images/meme.png" alt="Meme sobre reducción de inteligencia humana" >}}
+![Meme sobre reducción de inteligencia humana](images/meme.png)
 
 Soy completamente consciente de que este "mini-post" no va a ser capaz de revertir esta tendencia, y tampoco es lo que busco al escribirlo. \
 Mi intención es generar consciencia en el lector, y brindarle algunas herramientas que yo fui recolectando con el tiempo para evitar caer en esto.

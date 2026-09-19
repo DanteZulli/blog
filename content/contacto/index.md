@@ -5,7 +5,7 @@ layout = "page"
 
 Buenas! Esta es mi página de contacto.
 
-{{< img src="preferred_chat_system.png" alt="Preferred Chat System por xkcd" >}}
+![Preferred Chat System por xkcd](preferred_chat_system.png)
 
 > [Preferred Chat System ~ xkcd](https://xkcd.com/1254/)
 

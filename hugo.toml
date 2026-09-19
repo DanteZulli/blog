@@ -40,21 +40,11 @@ section = ["HTML", "RSS", "LLMS"]
   url = "/index.xml"
   weight = 4
 
-[markup]
-  [markup.highlight]
-    lineNos = true
-    lineNumbersInTable = false
-    noClasses = false
-
 [params]
   title = "dantezulli.ar"
   description = "Blog personal de Dante Zulli"
-  # favicon = "images/favicon.png"
   dateFormat = "2006-01-02"
   generateSocialCard = true
-  madeWith = "Basado en [Bear Cub](https://github.com/clente/hugo-bearcub)"
-  [params.social]
-    linkedin = "dante-zulli"
   [params.author]
     name = "Dante Zulli"
     email = "dantezulli2004@gmail.com"
