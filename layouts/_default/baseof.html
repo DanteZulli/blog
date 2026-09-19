@@ -14,8 +14,8 @@
         <meta name="referrer" content="strict-origin-when-cross-origin" />
 
         {{- partial "jsonld.html" . -}} {{ $style := print (default "original"
-        .Site.Params.themeStyle) ".css" | resources.Get | minify }}
-        <link href="{{ $style.RelPermalink }}" rel="stylesheet" />
+        .Site.Params.themeStyle) ".css" | resources.Get | minify | fingerprint }}
+        <link href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}" rel="stylesheet" />
 
         {{ with .OutputFormats.Get "rss" -}} {{ printf `
         <link rel="%s" type="%s" href="%s" title="%s" />
