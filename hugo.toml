@@ -23,6 +23,10 @@ home = ["HTML", "RSS", "LLMS", "ROBOTS"]
 page = ["HTML", "LLMS"]
 section = ["HTML", "RSS", "LLMS"]
 
+[[cascade]]
+  [cascade.build]
+    publishResources = false
+
 [[menu.main]]
   name = "now"
   url = "/now/"
@@ -48,3 +52,10 @@ section = ["HTML", "RSS", "LLMS"]
   [params.author]
     name = "Dante Zulli"
     email = "dantezulli2004@gmail.com"
+
+[imaging]
+  resampleFilter = "lanczos"
+  [imaging.webp]
+    quality = 75
+  [imaging.jpeg]
+    quality = 75

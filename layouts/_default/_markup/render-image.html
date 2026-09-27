@@ -1,20 +1,51 @@
 {{- $img := .Page.Resources.Get .Destination -}}
 {{- if $img -}}
-<img
-    src="{{ $img.RelPermalink }}"
-    alt="{{ .PlainText }}"
-    width="{{ $img.Width }}"
-    height="{{ $img.Height }}"
-    loading="lazy"
-    decoding="async"
-    {{- with .Title }} title="{{ . }}"{{- end -}}
-/>
+    {{- $subtype := $img.MediaType.SubType -}}
+    {{- if or (eq $subtype "svg") (eq $subtype "gif") -}}
+        <img
+            src="{{ $img.RelPermalink }}"
+            alt="{{ .PlainText }}"
+            width="{{ $img.Width }}"
+            height="{{ $img.Height }}"
+            loading="lazy"
+            decoding="async"
+            {{- with .Title }} title="{{ . }}"{{- end -}}
+        />
+    {{- else -}}
+        {{- $origW := $img.Width -}}
+        {{- $largeW := 1200 -}}
+        {{- if lt $origW $largeW -}}
+            {{- $largeW = $origW -}}
+        {{- end -}}
+        {{- $large := $img.Resize (printf "%dx webp q75" $largeW) -}}
+        {{- $srcset := slice -}}
+        {{- if ge $origW 480 -}}
+            {{- $s := $img.Resize "480x webp q65" -}}
+            {{- $srcset = $srcset | append (printf "%s 480w" $s.RelPermalink) -}}
+        {{- end -}}
+        {{- if ge $origW 768 -}}
+            {{- $m := $img.Resize "768x webp q70" -}}
+            {{- $srcset = $srcset | append (printf "%s 768w" $m.RelPermalink) -}}
+        {{- end -}}
+        {{- $srcset = $srcset | append (printf "%s %dw" $large.RelPermalink $large.Width) -}}
+        <img
+            src="{{ $large.RelPermalink }}"
+            srcset="{{ delimit $srcset ", " }}"
+            sizes="(max-width: 720px) 100vw, 720px"
+            alt="{{ .PlainText }}"
+            width="{{ $large.Width }}"
+            height="{{ $large.Height }}"
+            loading="lazy"
+            decoding="async"
+            {{- with .Title }} title="{{ . }}"{{- end -}}
+        />
+    {{- end -}}
 {{- else -}}
-<img
-    src="{{ .Destination | safeURL }}"
-    {{- with .PlainText }} alt="{{ . }}"{{ end -}}
-    {{- with .Title }} title="{{ . }}"{{ end -}}
-    loading="lazy"
-    decoding="async"
-/>
+    <img
+        src="{{ .Destination | safeURL }}"
+        {{- with .PlainText }} alt="{{ . }}"{{ end -}}
+        {{- with .Title }} title="{{ . }}"{{ end -}}
+        loading="lazy"
+        decoding="async"
+    />
 {{- end -}}
