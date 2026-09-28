@@ -1,9 +1,9 @@
 +++
-date = '2026-06-28'
+date = "2026-06-28"
 draft = true
 layout = "single"
-title = 'Dispositivos Con Propósito'
-description = 'Segunda vida para aparatos "obsoletos"'
+title = "Dispositivos Con Propósito"
+description = "Segunda vida para aparatos \"obsoletos\""
 author = "Dante Zulli"
 tags = []
 +++

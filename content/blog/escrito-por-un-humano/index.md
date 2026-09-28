@@ -1,9 +1,9 @@
 +++
-date = '2026-08-08'
+date = "2026-08-08"
 draft = false
 layout = "single"
-title = 'Este post fue escrito por un humano'
-description = '(y todos los demás también)'
+title = "Este post fue escrito por un humano"
+description = "(y todos los demás también)"
 author = "Dante Zulli"
 tags = []
 +++

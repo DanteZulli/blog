@@ -4,8 +4,8 @@ date = "2026-01-12"
 description = "Esta mismísima página"
 group = "active"
 author = "Dante Zulli"
-link = "https://github.com/DanteZulli/blog"
 layout = "single"
+link = "https://github.com/DanteZulli/blog"
 +++
 
 ![Mi sitio web, corriendo sin problemas en mi (vaqueteadísimo) Nokia N95 <3](images/n95-en-mi-now-page.jpeg)
