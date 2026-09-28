@@ -1,5 +1,5 @@
 +++
-date = "2026-07-21"
+date = "2026-09-27"
 title = "now"
 layout = "page"
 +++
@@ -30,7 +30,7 @@ Es la excusa perfecta para adentrarme en un mundo completamente nuevo, distraerm
 
 ### Libros que estoy leyendo
 
-Actualmente me encuentro leyendo [El hombre en busca de sentido](https://en.wikipedia.org/wiki/Man%27s_Search_for_Meaning) de Viktor E. Frankl (LIBRAZO!!), pero mi lista de pendientes no para de crecer, así que si tienen alguna recomendación estaría agradecido de recibirla!
+Actualmente me encuentro leyendo [La Sociedad del Cansancio](https://en.wikipedia.org/wiki/The_Burnout_Society) de Byung-Chul Han, pero mi lista de pendientes no para de crecer, así que si tienen alguna recomendación estaría agradecido de recibirla!
 
 De momento me interesaría leer...
 
@@ -38,7 +38,7 @@ De momento me interesaría leer...
 
 ...algún libro con el que pueda llenar los espacios vacíos del día a día (al estilo [Cuentos breves y extraordinarios de Borges y Bioy](https://es.wikipedia.org/wiki/Cuentos_breves_y_extraordinarios)).
 
-...comics (no manga/manwha). Un amigo me recomendó [Watchmen](https://en.wikipedia.org/wiki/Watchmen), que todavía lo tengo pendiente.
+...comics. Un amigo me recomendó [Watchmen](https://en.wikipedia.org/wiki/Watchmen), que todavía lo tengo pendiente.
 
 ### Charlas y exposiciones
 
