@@ -7,7 +7,6 @@ defaultContentLanguage = "es"
   [languages.es]
     locale = "es-AR"
     weight = 1
-enableRobotsTXT = true
 
 [mediaTypes."text/markdown"]
 suffixes = ["txt", "md", "markdown"]
